@@ -83,6 +83,14 @@ $userName = $name.' '.$lastName;
                                     <span>Home</span>
                                 </a>
                             </li>
+                            <?php if($isAdmin){ ?>
+                            <li class="sub-menu">
+                                <a href="./users">
+                                    <i class="fa fa-users"></i>
+                                    <span>Administrar usuarios</span>
+                                </a>
+                            </li>
+                            <?php } ?>
                             <li class="sub-menu">
                                 <a href="./import">
                                     <i class="fa fa-laptop"></i>
